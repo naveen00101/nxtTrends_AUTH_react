@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  min-height: 80vh;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-mobile-img {
+  display: none;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-heading {
+  font-size: 50px;
+}
+
+.home-description {
+  font-size: 25px;
+  width: 80%;
+}
+
+.shop-now-button {
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 19px;
+  font-weight: 500;
+  border: none;
+  background-color: #0b69ff;
+  color: white;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    min-height: 80vh;
+  }
+  .home-mobile-img {
+    display: block;
+    width: 80%;
+  }
+  .home-heading {
+    font-size: 30px;
+  }
+  .home-desktop-img {
+    display: none;
+  }
+
+  .home-description {
+    font-size: 17px;
+    width: 80%;
+  }
+}

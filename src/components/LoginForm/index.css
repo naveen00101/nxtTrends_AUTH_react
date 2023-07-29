@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+.login-form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.login-image {
+  width: 45vw;
+}
+
+.login-website-logo-desktop-image {
+  width: 250px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 450px;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.input-label {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.input-holder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-filed {
+  margin-top: 15px;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #d7dfe9;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.login-button {
+  width: 67%;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  background-color: #0b69ff;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.errorMSG {
+  color: #ff0b37;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form-container {
+    flex-direction: column;
+  }
+}
